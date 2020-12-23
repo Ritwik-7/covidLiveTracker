@@ -1,0 +1,218 @@
+html{
+    font-size: 61%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url(bkg.png);
+    background-size: cover;
+    /*position: relative;
+    overflow: hidden;*/
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.logo {
+    min-width: 20rem;
+    margin-left: .4rem;
+    display: inline-block;
+}
+
+.logo span {
+    width: 5.0rem;
+    height: .3rem;
+    background-color: #7c3bd1;
+    display: inline-block;
+    vertical-align: super;
+}
+
+.logo h2 {
+    display: inline-block;
+    font-size: 2.9rem;
+    font-weight: 600;
+    color: #380992;
+}
+
+.nav {
+    max-width: 100rem;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 1.0rem;
+    padding: .6rem 8.9rem .6rem 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #525176;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.nav a:hover {
+    color: #380992;
+    
+}
+
+.menu {
+    width: 8rem;
+    text-align: center;
+}
+
+.menu a {
+    font-size: 3.1rem;
+}
+
+.page-content {
+    max-width: 54rem;
+    margin-top: 5.0rem;
+    padding: .0rem 5.0rem;
+}
+
+.page-content h2 {
+    font-size: 10.0rem;
+    color: #e4daf5;
+}
+
+.page-content p {
+    color: #525176;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 4.0rem;
+    width: 70rem;
+}
+
+.page-content ul {
+    color: #212121;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 4.0rem;
+    width: 70%;
+}
+.page-content .btn button {
+    margin-right: 1.9rem;
+    border: none;
+    outline: none;
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 2.0rem 4.5rem;
+    border-radius: 2.8rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.page-content .btn .btn2 {
+    color: #380992;
+    background-color: white;
+    border: .2rem solid #7c3bd1;
+}
+
+.page-content .btn a{
+    text-decoration: none;
+    color: #525176;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.page-content .btn2 a{    
+    text-decoration: none;
+    color: #525176;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.page-content .btn a:hover{
+    color: #380992;
+    
+
+}
+
+.page-content .btn2 a:hover{
+    color: #380992;
+    
+    
+}
+
+
+.social {
+    /*position: absolute;*/
+    left: 10.0rem;
+    bottom: 3.7rem;
+    margin-left: 6.0rem;
+    padding: .6rem 8.9rem .6rem 0;
+
+}
+
+.social a {
+    display: inline-block;
+    font-size: 2.0rem;
+    margin-right: .7rem;
+    color: black;
+    
+}
+
+.social a:hover {
+    transform: translateY(-.9rem);
+    -webkit-transform: translateY(-.9rem);
+    -moz-transform: translateY(-.9rem);
+    -ms-transform: translateY(-.9rem);
+    -o-transform: translateY(-.9rem);
+}
+
+.shap1 {
+    position: absolute;
+    max-width: 35rem;
+    right: 15rem;
+    top: 8.8rem;
+}
+
+.shap2 {
+    position: absolute;
+    max-width: 6rem;
+    left: 60rem;
+    bottom: 3rem;
+}
+.page-content table{
+    background-color:#CFD8DC;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    width: 120rem;
+}
+
+
+@media(max-width:767px){
+    html{
+        font-size: 39%;
+    }
+}
+
+@media(max-width:480px){
+    html{
+        font-size: 29%;
+    }
+}
